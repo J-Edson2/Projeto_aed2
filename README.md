@@ -1,4 +1,4 @@
-# Fila de prioridades utilizando Aeronaves
+# Fila de prioridades utilizando Espaçonaves
 
 # Autores
 Elias Ósbony e João Edson
