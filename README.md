@@ -1,8 +1,7 @@
 # Fila de prioridades utilizando Aeronaves
 
 # Autores
-Elias Ósbony
-João Edson
+Elias Ósbony e João Edson
 
 # Especificações:
 
