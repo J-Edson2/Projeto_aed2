@@ -27,3 +27,17 @@
 	<string.h>
 	"FilaPrioridade.h"
 
+1693419268 source:c:\users\joaoe\downloads\projeto_aed2-main\projeto_aed2-main\sistema de naves\filaprioridade.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"FilaPrioridade.h"
+
+1693419379 c:\users\joaoe\downloads\projeto_aed2-main\projeto_aed2-main\sistema de naves\filaprioridade.h
+
+1693418090 source:c:\users\joaoe\downloads\projeto_aed2-main\projeto_aed2-main\sistema de naves\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"FilaPrioridade.h"
+

@@ -4,7 +4,7 @@
 
 // Definição da estrutura Passageiro
 struct passageiro{
-    char nome[10];
+    char nome[50];
     int idade;
     char planetaOrigem[50];
     int identificadorUnico;
@@ -33,4 +33,5 @@ typedef struct elemento *Fila;
 Fila* criar();
 int insere(Fila*, Espaconave);
 int imprimeFila(Fila*);
+Espaconave remove_nave(Fila*);
 #endif // FILAPRIORIDADE_H_INCLUDED
