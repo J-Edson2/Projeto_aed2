@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <locale.h>
 #include "FilaPrioridade.h"
 
 
@@ -13,15 +14,45 @@ Espaconave *nova_nave() {
 }
 
 int main() {
-    int n, i;
-    printf("Digite o tamanho da fila \n");
-    scanf("%d", &n);
-
+    setlocale(LC_ALL, "portuguese");
+    Fila* fila;
+    fila = NULL;
+    fila = criar();
+    Espaconave *nave = nova_nave();
+    Espaconave *nave2 = nova_nave();
+    Espaconave *nave3 = nova_nave();
+    Espaconave *nave4 = nova_nave();
+    printf("\||||||||||||-Dados do arquivo-||||||||||||/\n");
+    FILE *file;
+    file = fopen("Naves.txt", "r");
+    char nome[30];
+    int idade, prioridade, identificador, numero_passageiros;
+    char planeta[30];
+    while(fgets(nome, 30, file) != NULL){
+            fscanf(file, "%s %d %s %d %d", nome, &idade, planeta, &identificador, &prioridade);
+            printf("%s %d %s %d %d \n", nome, idade, planeta, identificador, prioridade);
+            strcpy(nave->dados.nome, nome);
+            nave->dados.idade = idade;
+            nave->numPassageiros = numero_passageiros;
+            strcpy(nave->dados.planetaOrigem, planeta);
+            nave->dados.identificadorUnico = identificador;
+            nave->prioridade = prioridade;
+            insere(fila, *nave);
+            numero_passageiros++;
+    }
+    printf("\||||||||||||||||||||||||/\n");
+    strcpy(nave->dados.nome, nome);
+    nave->dados.idade = idade;
+    strcpy(nave->dados.planetaOrigem, planeta);
+    nave->dados.identificadorUnico = identificador;
+    nave->prioridade = prioridade;
+    insere(fila, *nave);
+    fclose(file);
+/*
     Fila* fila;
     fila = NULL;
     fila = criar();
 
-    Espaconave *nave = nova_nave();
     Espaconave *nave2 = nova_nave();
     Espaconave *nave3 = nova_nave();
     Espaconave *nave4 = nova_nave();
@@ -45,11 +76,11 @@ int main() {
     insere(fila, *nave3);
 
     nave4->numPassageiros = 3;
-    nave4->prioridade = 4;
+    nave4->prioridade = 10;
     strcpy(nave4->dados.nome, "Kelthon");
     nave4->dados.idade = 30;
     insere(fila, *nave4);
-
+*/
     printf("NAVES NA BASE DE LANÇAMENTO:");
     imprimeFila(fila);
 

@@ -77,7 +77,6 @@ Espaconave remove_nave(Fila *fila) {
     Elemento *removido = *fila;
     *fila = (*fila)->proximo;
     free(removido);
-
     return nave_maior_prioridade;
 }
 
@@ -91,6 +90,8 @@ int imprimeFila(Fila* fila) {
             printf("\nNumero de passageiros: %d\n", aux->dados.numPassageiros);
             printf("Nome do passageiro: %s\n", aux->dados.dados.nome);
             printf("Idade do passageiro: %d\n", aux->dados.dados.idade);
+            printf("Planeta do passageiro: %s\n", aux->dados.dados.planetaOrigem);
+            printf("Identificador único: %d\n", aux->dados.dados.identificadorUnico);
             printf("prioridade da nave: %d\n", aux->dados.prioridade);
             aux = aux->proximo;
         }
