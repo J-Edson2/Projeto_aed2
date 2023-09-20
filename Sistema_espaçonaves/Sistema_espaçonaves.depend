@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1695243456 source:e:\codeblocks\sistema_espaçonaves\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<locale.h>
+	"FilaPrioridade.h"
+
+1695243516 source:e:\codeblocks\sistema_espaçonaves\filaprioridade.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"FilaPrioridade.h"
+
+1695241937 e:\codeblocks\sistema_espaçonaves\filaprioridade.h
+
