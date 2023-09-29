@@ -1,0 +1,27 @@
+10
+3
+Moglis,30,Terra,123
+Matheus,25,Marte,456
+Raimundo,36,Terra,112
+3
+Comida,100
+Água,200
+Combustível,300
+
+20
+2
+yzap,35,Vênus,789
+kelthon, 40,Júpiter,012
+3
+Comida,150
+Água,250
+Combustível,350
+
+30
+2
+Lucas,10,Vênus,779
+Elias, 60,Júpiter,62
+3
+Comida,100
+Água,240
+Combustível,550

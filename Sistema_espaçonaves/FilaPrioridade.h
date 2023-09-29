@@ -1,6 +1,5 @@
 #ifndef FILAPRIORIDADE_H_INCLUDED
 #define FILAPRIORIDADE_H_INCLUDED
-
 typedef struct Passageiro {
     char nome[50];
     int idade;
@@ -30,4 +29,6 @@ NoFila* criar_fila();
 void inserir_na_fila(NoFila** fila, Espaconave nave);
 Espaconave remover_da_fila(NoFila** fila);
 void exibir_fila(NoFila* fila);
-#endif // FILAPRIORIDADE_H_INCLUDED
+int verificar_dados(Espaconave* nave);
+Espaconave inserir_nave_manualmente();
+#endif
