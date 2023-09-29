@@ -144,7 +144,7 @@ void menu(NoFila* fila) {
 
 int verificar_dados(Espaconave* nave) {
     int random = rand() % 10;
-    if (random < 5) {
+    if (random == 1) {
         nave->prioridade = rand() % 100;
         return 1;
     }
