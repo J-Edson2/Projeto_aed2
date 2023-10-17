@@ -1,0 +1,9 @@
+Interagindo com o programa: Uma vez que o programa esteja em execução, ele apresentará um menu com várias opções. Você pode digitar o número correspondente à opção que deseja selecionar e pressionar Enter.
+
+Inserindo dados manualmente: Se você selecionar a opção para inserir uma nave manualmente, o programa solicitará que você insira os detalhes da nave, incluindo a prioridade, os detalhes dos passageiros e os detalhes dos recursos.ele não pede os detalhes separadamente, então você deve por exemplo, digitar o nome e pressionar enter,digitar a idade e pressionar enter e assim por diante
+
+Visualizando as naves: Se você selecionar a opção para imprimir as naves, o programa exibirá os detalhes de todas as naves na fila de prioridade.
+
+Remover naves:Se você selecionar a opção para remover nave, o programa irá remover a nave de maior prioridade. Você pode verificar isso selecionando a opção de imprimir naves novamente. 
+
+Encerrando o programa: Você pode encerrar o programa selecionando a opção de saída no menu do programa.
