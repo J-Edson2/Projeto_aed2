@@ -5,23 +5,23 @@ Matheus,25,Marte,456
 Raimundo,36,Terra,112
 3
 Comida,100
-Água,200
-Combustível,300
+Agua,200
+Combustivel,300
 
 20
 2
-yzap,35,Vênus,789
-kelthon, 40,Júpiter,012
+yzap,35,Venus,789
+kelthon, 40,Jupiter,012
 3
 Comida,150
-Água,250
-Combustível,350
+Agua,250
+Combustivel,350
 
 30
 2
-Lucas,10,Vênus,779
-Elias, 60,Júpiter,62
+Lucas,10,Venus,779
+Elias, 60,Jpiter,62
 3
 Comida,100
-Água,240
-Combustível,550
+Agua,240
+Combustivel,550
