@@ -12,5 +12,9 @@ inserir naves no txt:Para inserir basta seguir o formato a seguir das outras nav
 Miguel,30,Terra,123 ->Nome,idade,planeta de origem, identificador único
 Matheus,25,Marte,456
 Raimundo,36,Terra,112
+3 ->quantidade de recursos
+Comida,100 ->Tipo de recurso, quantidade de recurso
+Agua,200
+Combustivel,300
 
 Encerrando o programa: Você pode encerrar o programa selecionando a opção de saída no menu do programa.
