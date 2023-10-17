@@ -6,4 +6,11 @@ Visualizando as naves: Se você selecionar a opção para imprimir as naves, o p
 
 Remover naves:Se você selecionar a opção para remover nave, o programa irá remover a nave de maior prioridade. Você pode verificar isso selecionando a opção de imprimir naves novamente. 
 
+inserir naves no txt:Para inserir basta seguir o formato a seguir das outras naves.
+10 ->prioridade
+3 ->quantidade de passageiros
+Miguel,30,Terra,123 ->Nome,idade,planeta de origem, identificador único
+Matheus,25,Marte,456
+Raimundo,36,Terra,112
+
 Encerrando o programa: Você pode encerrar o programa selecionando a opção de saída no menu do programa.
